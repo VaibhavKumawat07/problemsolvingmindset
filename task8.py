@@ -49,3 +49,10 @@ def display_learning_roadmap():
 
 
 display_learning_roadmap()
+# -----------------------------------------------------
+# Summary:
+# -----------------------------------------------------
+# This script demonstrates:
+# 1. How we can iterate over loops with the help of for loop.
+# 2. From this every one can clear their concept.
+# Happy coding!
