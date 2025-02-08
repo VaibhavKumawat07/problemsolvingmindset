@@ -15,17 +15,18 @@ print(square(5))
 square_lambda = lambda x: x * x
 print(square_lambda(5))
 
+
 # Implementing lambda function in mini project
 
-# List of completed topics
-completed_topics = ["Variables", "Operators", "Functions", "Tuples"]
-total_topics = 18  # Assume we have 18 topics in total
+def progress():
+    # List of completed topics
+    completed_topics = ["Variables", "Operators", "Functions", "Tuples"]
+    total_topics = 18  # Assume we have 18 topics in total
 
-# Calculate progress of a student using lambda function
-progress_percentage = lambda completed, total: (len(completed) / total) * 100
+    # Calculate progress of a student using lambda function
+    progress_percentage = lambda completed, total: (len(completed) / total) * 100
 
-print(f"Learning Progress of a student 🧑‍🎓: {progress_percentage(completed_topics, total_topics):.2f}%")
-
+    print(f"Learning Progress of a student 🧑‍🎓: {progress_percentage(completed_topics, total_topics):.2f}%")
 
 # -----------------------------------------------------
 # Summary:
@@ -35,4 +36,3 @@ print(f"Learning Progress of a student 🧑‍🎓: {progress_percentage(complet
 # 2. ✔ we don't need to use return keyword, it automatically returns the value
 # 3. ✔ Used for shorthand and  simple operations
 # Happy coding!
-
